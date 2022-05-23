@@ -1,0 +1,82 @@
+body {
+  display: grid;
+  place-items: center;
+}
+
+.pagination {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.stretch {
+  border: none;
+  background-color: rgb(58, 242, 58);
+  color: white;
+  padding: 5px 8px;
+  transition: padding .15s;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.stretch:hover {
+  padding: 15px 20px;
+}
+
+.shadow {
+  border: none;
+  background-color: rgb(58, 242, 58);
+  color: white;
+  padding: 5px 8px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, .15);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.shadow:active {
+  padding: 10px 16px;
+  box-shadow: none
+}
+
+.one {
+  border: none;
+  background-color: rgb(58, 242, 58);
+  color: white;
+  padding: 5px 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: padding .30s;
+}
+
+.one:active {
+  padding: 5px 16px;
+}
+
+.two {
+  border: none;
+  background-color: rgb(58, 242, 58);
+  color: white;
+  padding: 5px 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: padding .30s;
+}
+
+.two:active {
+  padding: 5px 16px;
+}
+
+.three {
+  border: none;
+  background-color: rgb(58, 242, 58);
+  color: white;
+  padding: 5px 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: padding .30s;
+}
+
+.three:active {
+  padding: 5px 16px;
+}

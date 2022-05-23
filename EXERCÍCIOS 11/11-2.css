@@ -1,0 +1,179 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
+}
+
+.box1 {
+  width: 200px;
+  box-shadow: 0px 0px 5px rgb(200, 200, 200);
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.box1 .profile {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.box1 .name {
+  margin-left: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.box1 .mutual-friends {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.box1 .profile-mutual {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 14px;
+  vertical-align: middle;
+}
+
+.box1 .mutual-text {
+  color: rgb(100, 100, 100);
+  font-size: 15px;
+}
+
+.box1 .add-friend {
+  border: none;
+  background-color: rgba(26, 117, 186, 0.592);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+/*******************************/
+
+
+.box2 {
+  width: 200px;
+  box-shadow: 0px 0px 5px rgb(200, 200, 200);
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.box2 .profile {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.box2 .name {
+  margin-left: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.box2 .mutual-friends {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.box2 .profile-mutual {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 14px;
+  vertical-align: middle;
+}
+
+.box2 .mutual-text {
+  color: rgb(100, 100, 100);
+  font-size: 15px;
+}
+
+.box2 .add-friend {
+  border: none;
+  background-color: rgba(26, 117, 186, 0.592);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+/*******************************/
+
+
+.box3 {
+  width: 200px;
+  box-shadow: 0px 0px 5px rgb(200, 200, 200);
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.box3 .profile {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.box3 .name {
+  margin-left: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.box3 .mutual-friends {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.box3 .profile-mutual {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 14px;
+  vertical-align: middle;
+}
+
+.box3 .mutual-text {
+  color: rgb(100, 100, 100);
+  font-size: 15px;
+}
+
+.box3 .add-friend {
+  border: none;
+  background-color: rgba(26, 117, 186, 0.592);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,36 @@
+.red-square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.green-circle {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(56, 187, 16);
+  border-radius: 50px;
+}
+
+.box1 {
+  border: 1px solid gray;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.box2 {
+  border: 1px solid gray;
+  width: 330px;
+  padding: 10px;
+  background-color: rgb(75, 74, 74);
+}
+
+.box2 .b1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.box2 .b2 {
+  color: white;
+}

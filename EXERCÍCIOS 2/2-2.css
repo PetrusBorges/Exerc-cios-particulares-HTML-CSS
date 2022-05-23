@@ -1,0 +1,29 @@
+a {
+  color: rgb(0, 113, 133);
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+}
+
+.stock {
+  color: rgb(0, 118, 0);
+}
+
+.button1 {
+  border: none;
+  background-color: rgb(255, 216, 20);
+  color: black;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+.button2 {
+  border: none;
+  background-color: rgb(255, 164, 28);
+  color: black;
+  padding: 10px 30px;
+  border-radius: 50px;
+}

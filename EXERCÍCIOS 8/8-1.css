@@ -1,0 +1,97 @@
+
+
+.name {
+  display: block;
+  border: 1px solid rgb(214, 212, 212);
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
+
+.email {
+  display: block;
+  border: 1px solid rgb(214, 212, 212);
+  border-radius: 3px;
+}
+
+.box2 p {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+}
+
+.box3 {
+  display: grid;
+  place-items: center;
+}
+
+.box3 img {
+  width: 280px;
+  height: 92px;
+  object-fit: cover;
+  display: grid;
+  place-items: center;
+}
+
+.box3 input {
+  margin-top: 10px;
+  border: 1px solid rgb(210, 207, 207);
+  border-radius: 3px;
+  width: 280px;
+  box-shadow: 0px 0px 10px rgb(190, 187, 187);
+  margin-bottom: 25px;
+}
+
+.box4 input {
+  display: inline-block;
+  border: 1px solid rgb(202, 200, 200);
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.box4 .email1 {
+  display: block;
+  width: 335px;
+}
+
+.box4 button {
+  border: none;
+  background: rgb(87, 113, 232);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 145px;
+  cursor: pointer;
+}
+
+.box5 p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.box5 input {
+  display: block;
+  margin-bottom: 5px;
+  border: none;
+  background-color: rgb(233, 232, 232);
+  border-radius: 5px;
+  padding: 10px 90px 10px 15px;
+}
+
+.box5 button {
+  border: none;
+  margin-top: 10px;
+}
+
+.box5 .b1 {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.box5 .b2 {
+  background-color: rgb(233, 227, 227);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  cursor: pointer;
+}

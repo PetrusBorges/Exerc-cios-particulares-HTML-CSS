@@ -1,0 +1,63 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.item1 {
+  width: 200px;
+  background-color: blue;
+}
+
+.item2 {
+  width: 75px;
+  background-color: rgb(233, 133, 201);
+}
+
+/*****************************************/
+
+.flexbox2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexbox2 .item1 {
+  width: 50px;
+  background-color: aqua;
+}
+
+.flexbox2 .item2 {
+  flex: 1;
+  background-color: rgb(230, 72, 182);
+}
+
+.flexbox2 .item3 {
+  width: 75px;
+  background-color: aqua;
+}
+
+/*****************************************/
+
+.flexbox3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexbox3 .item1 {
+  background-color: rgb(177, 10, 143);
+}
+
+/*****************************************/
+
+.flexbox4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(208, 209, 208);
+  height: 50px;
+}
+
+.flexbox4 .item1 {
+  background-color: aquamarine;
+}

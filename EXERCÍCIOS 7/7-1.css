@@ -1,0 +1,90 @@
+body {
+  display: grid;
+  place-items: center;
+}
+
+.imgcat {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.search-bar1 {
+  margin-top: 10px;
+  border: .5px solid rgb(218, 216, 216);
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.search-bar2 {
+  margin-top: 10px;
+  border: .5px solid rgb(218, 216, 216);
+  border-radius: 50px;
+  width: 500px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgb(190, 187, 187);
+}
+
+.linkedin {
+  text-align: center;
+}
+
+.linkedin .title1 {
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 3px;
+}
+
+.linkedin .search1 {
+  width: 280px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.linkedin .title2 {
+  font-size: 12px;
+  color: grey;
+  margin-top: 10px;
+}
+
+.linkedin .button1 {
+  border: none;
+  background-color: rgb(6, 62, 183);
+  color: white;
+  font-weight: bold;
+  padding: 10px 100px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.text-box {
+  font-size: 18px;
+  border: none;
+  width: 300px;
+  vertical-align: middle;
+}
+
+.tweet-button {
+  border: none;
+  color: white;
+  background-color: rgb(29, 155, 240);
+  padding: 8px 20px;
+  border-radius: 50px;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: bold;
+}

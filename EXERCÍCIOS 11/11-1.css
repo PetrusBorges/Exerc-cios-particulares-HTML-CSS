@@ -1,0 +1,44 @@
+.grid {
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.blue {
+  background-color: aqua;
+}
+
+.pink {
+  background-color: rgb(232, 68, 180);
+}
+
+/***********************/
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+.col1 {
+  background-color: aqua;
+}
+
+.col2 {
+  background-color: rgb(232, 68, 180);
+}
+
+.col3 {
+  background-color: aqua;
+}
+
+/***********************/
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.color {
+  background-color: lightcoral;
+}

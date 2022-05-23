@@ -1,0 +1,53 @@
+a {
+  color: rgb(0, 113, 133);
+}
+
+a:hover {
+  color: red;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+}
+
+.stock {
+  color: rgb(0, 118, 0);
+}
+
+.button1 {
+  border: none;
+  background-color: rgb(255, 216, 20);
+  color: black;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color .15s;
+}
+
+.button1:hover {
+  background-color: rgb(152, 128, 10);
+}
+
+.button1:active {
+  opacity: 0.3;
+}
+
+.button2 {
+  border: none;
+  background-color: rgb(255, 164, 28);
+  color: black;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color .15s;
+}
+
+.button2:hover {
+  background-color: rgb(103, 67, 13);
+}
+
+.button2:active {
+  opacity: 0.3;
+}

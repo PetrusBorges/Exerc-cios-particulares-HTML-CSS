@@ -1,0 +1,59 @@
+.button1 {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+}
+
+.button2 {
+  border: none;
+  background-color: yellow;
+  color: black;
+  padding: 10px 50px;
+  border-radius: 50px;
+}
+
+.button3 {
+  border: none;
+  font-weight: bold;
+  background-color: rgb(118, 219, 118);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.button4 {
+  border: none;
+  font-weight: bold;
+  background-color: rgb(159, 72, 209);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.button5 {
+  border: 1px solid rgb(179, 176, 176);
+  font-weight: bold;
+  background-color: white;
+  color: rgb(179, 176, 176);
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.button6 {
+  background-color: rgb(110, 110, 243);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+.button7 {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 50px;
+}

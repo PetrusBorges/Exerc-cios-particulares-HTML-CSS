@@ -1,0 +1,75 @@
+.box1 {
+  border: 1px solid rgb(201, 200, 200);
+  width: 470px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(208, 205, 205);
+}
+
+.box1 img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.box1 input {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+  color: gray;
+  width: 300px;
+  border: none;
+}
+
+.box1 button {
+  background-color: rgb(85, 101, 242);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.box2 {
+  border: 1px solid rgb(201, 200, 200);
+  width: 150px;
+  box-shadow: 0px 0px 10px rgb(208, 205, 205);
+  margin-top: 20px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.box2 img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.box2 .b1 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+.box2 .b2 {
+  font-size: 14px;
+  color: rgb(201, 197, 197);
+  margin-left: 5px;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+.box2 button {
+  border: none;
+  background-color: rgb(85, 101, 242);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
